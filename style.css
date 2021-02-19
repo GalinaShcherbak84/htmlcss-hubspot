@@ -123,16 +123,26 @@ h4{
 }
 /* banner con il testo */
 .banner{
+    position: relative;
     width: 100%;
     height: 500px;
     background-color: #fff2ee;
-    background-image: url(./hubspot-assets/img-hubspot/jumbotron.png);
+    /* background-image: url(./hubspot-assets/img-hubspot/jumbotron.png);
     background-position:110% -155%;
     background-size:80%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+}
+.banner img{
+    height: 500px;
+    position: absolute;
+    right: 0;
+    bottom:-60px;
 }
 .banner .titoli{
-    margin:0 0 0 10%;
+    position: absolute;
+    top:40px;
+    left:10%;
+    z-index: 2;
     color:#32495b  
 }
 .banner .titoli h1{
@@ -146,11 +156,26 @@ h4{
 }
 /* riga verde */
 .verde{
+    position: relative;
+    z-index: 3;
     height: 80px;
     background-color: #afebe4;
     border-top: 2px solid #33475b;
     border-bottom: 2px solid #33475b;
 }
-
+/* testo con l'immagine sopra "Powerful Alone. Better Together" */
+.powerfur{
+    text-align: center;
+    background-color:#f4f9fd;
+    color:#33475b;
+    padding:0 20%;
+}
+.powerfur img{
+    width: 300px;
+    margin:40px 0;
+}
+.powerfur p{
+    margin:40px 0;
+}
 
 
