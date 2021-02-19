@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 /* utility */
+a{
+    text-decoration: none;
+    color:#32495b;
+}
 p{
     font-size: 18px;
 }
@@ -33,7 +37,9 @@ h4{
     width: 80%;
     margin:0 auto;
 }
-
+.w-50{
+    width: 50%;
+}
 /* header */
 
 /* header  la parte sopra */
@@ -115,7 +121,36 @@ h4{
     top:50%;
     transform: translateY(-50%);
 }
-
+/* banner con il testo */
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color: #fff2ee;
+    background-image: url(./hubspot-assets/img-hubspot/jumbotron.png);
+    background-position:110% -155%;
+    background-size:80%;
+    background-repeat: no-repeat;
+}
+.banner .titoli{
+    margin:0 0 0 10%;
+    color:#32495b  
+}
+.banner .titoli h1{
+    padding:5% 0 0 0;
+}
+.banner .titoli p{
+    margin:5% 0;
+}
+.banner .titoli p:last-child{
+    font-size: 14px;
+}
+/* riga verde */
+.verde{
+    height: 80px;
+    background-color: #afebe4;
+    border-top: 2px solid #33475b;
+    border-bottom: 2px solid #33475b;
+}
 
 
 
