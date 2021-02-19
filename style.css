@@ -6,6 +6,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 /* utility */
+
 a{
     text-decoration: none;
     color:#32495b;
@@ -67,7 +68,8 @@ h4{
 }
     
 .top ul li,
-.bottom ul li{
+.bottom ul li,
+.up .right ul li{
     display: inline-block;
     color:#32495b;
     font-weight: bolder;
@@ -100,6 +102,9 @@ h4{
     padding:8px;
     border:solid 1px #fe775a;
     border-radius: 5px;
+}
+.bottone_big{
+    padding:16px;
 }
 
 /* header la parte sotto */
@@ -166,16 +171,82 @@ h4{
 /* testo con l'immagine sopra "Powerful Alone. Better Together" */
 .powerfur{
     text-align: center;
-    background-color:#f4f9fd;
+    background-image: linear-gradient(to bottom right, #f4f9fd, white );
     color:#33475b;
-    padding:0 20%;
+    /* padding:0 20%; */
 }
 .powerfur img{
     width: 300px;
     margin:40px 0;
 }
 .powerfur p{
-    margin:40px 0;
+    width: 60%;
+    margin:40px auto;
 }
-
+ /* section Free Hubspot CRM */
+ 
+ .up{
+     position: relative;
+     width: 100%;
+     text-align: left;
+     background-color: white;
+     box-shadow: 0 0 8px #33475b;
+     border-radius: 5px;
+ }
+ .up .left{
+     padding: 40px 20px 40px 40px;
+     text-align: center;
+     width: 35%;
+     
+ }
+ .up p{
+     width: 100%;
+     text-align: left;
+     margin:40px 0 30px 0;
+ }
+ .up img{
+     width: 65%;
+     margin:0 auto 20px auto;
+ }
+ .up a{
+     display: block;
+     width:65% ;
+     text-align: center;
+     margin:0 auto;
+ }
+ .up .right{
+     padding: 40px 40px 40px 20px;
+     width: 65%;
+     position: absolute;
+     right: 0%;
+     top:0%;
+     
+ }
+ .up .right h4{
+     margin-bottom: 30px;
+ }
+ .up .right i{
+     margin-right: 10px;
+     color:#fe775a;
+ }
+ .up .right li{
+     margin-right: 15px;
+ }
+ .linea{
+     position: relative;
+     width: 100%;
+ }
+ .linea h4{
+     width: 35%;
+ }
+ .linea span{
+     position: absolute;
+     right: 0;
+     top:50%;
+     transform: translateY(-50%);
+     display: inline-block;
+     width: 65%;
+     height: 2px;
+     background-color:#33475b ;
+ }
 
