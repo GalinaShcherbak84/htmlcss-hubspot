@@ -332,12 +332,46 @@ hr{
     background-repeat: no-repeat;
 }
 .cella h3{
-    font-size:60px;
+    font-size:54px;
     margin:20px auto;
 }
 .cella p{
     padding-bottom:20px ;
 }
+.cella i{
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
 .cella_in_float:last-child{
     padding-bottom:40px;
 }
+.cella_in_float:last-child .cella{
+    border-bottom: none;
+}
+.cella:nth-child(2) .img{
+    background-image: url(./hubspot-assets/img-hubspot/homepage_community_blog.svg);
+
+}
+.cella:nth-child(3) .img{
+    background-image: url(./hubspot-assets/img-hubspot/homepage_community_academy.svg);
+}
+.cella:nth-child(4) .img{
+    background-image: url(./hubspot-assets/img-hubspot/homepage_community_inbound.svg);
+}
+#sotto .cella .img{
+    background-image: url(./hubspot-assets/img-hubspot/homepage_community_connect.svg);
+}
+#sotto .cella:nth-child(2) .img{
+    background-image: url(./hubspot-assets/img-hubspot/homepage_community_globe.svg);
+    background-size: 30%;
+}
+#sotto .cella:nth-child(3) .img{
+    background-image: url(./hubspot-assets/img-hubspot/homepage_community_followers.svg);
+    background-size: 30%;
+}
+#sotto .cella:nth-child(4) .img{
+    background-image: url(./hubspot-assets/img-hubspot/growthhub-white-small.svg);
+}
+
+
