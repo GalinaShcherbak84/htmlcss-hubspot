@@ -275,6 +275,12 @@ h4{
      background-position: center;
     
  }
+ .colonna:nth-child(2) .img{
+     background-image: url(./hubspot-assets/img-hubspot/Sales-Professional-Illustration.svg);
+ }
+ .colonna:nth-child(3) .img{
+     background-image: url(./hubspot-assets/img-hubspot/Service-Hub-Illustration.svg);
+ }
  .colonna p{
      width: 100%;
      height: 150px;
@@ -294,4 +300,44 @@ hr{
     list-style: none;
     text-align: left;
     font-size: 18px;
+}
+/* section class="learn_and_grow" */
+.learn_and_grow{
+    background-color: #00b5ad;
+    color:white;
+    text-align: center;
+}
+.learn_and_grow h2{
+    padding:40px 0;
+    width: 100%;
+}
+.learn_and_grow p:not(.cella p){
+    margin-bottom: 40px;
+}
+.cella{
+    width: 25%;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+.cella:last-child{
+    border-right: none;
+}
+.cella .img{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto ;
+    background-image: url(./hubspot-assets/img-hubspot/homepage_community_agency.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.cella h3{
+    font-size:60px;
+    margin:20px auto;
+}
+.cella p{
+    padding-bottom:20px ;
+}
+.cella_in_float:last-child{
+    padding-bottom:40px;
 }
