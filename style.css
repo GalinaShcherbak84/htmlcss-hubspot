@@ -19,10 +19,13 @@ h1{
 }
 h2{
     font-size:30px;
+    
 }
 h3{
     font-size: 24px;
 }
+    
+    
 h4{
     font-size: 20px;
 }
@@ -156,7 +159,8 @@ h4{
 .banner .titoli p{
     margin:5% 0;
 }
-.banner .titoli p:last-child{
+.banner .titoli p:last-child,
+.start-growing-sotto-testo p:last-child{
     font-size: 14px;
 }
 /* riga verde */
@@ -375,6 +379,7 @@ hr{
 }
 
 /* Section "start_growing" */
+/* start-growing-sopra */
 .start-growing{
     background-color: #ffffff;
     color:#33475b;
@@ -431,6 +436,33 @@ hr{
 }
 .cella-logo:nth-child(8){
     background-image: url(./hubspot-assets/img-hubspot/VMware_logo.webp);
+}
+/* start-growing-sotto */
+.start_growing .container{
+    position: relative;
+}
+.start_growing .container img{
+    width:30%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.start-growing-sotto{
+    margin-top: 40px;
+}
+.start-growing-sotto-testo{
+    width: 50%;
+    color:#32495b;
+}
+.start-growing-sotto a{
+    width: 40%;
+    text-align: center;
+    display: block;
+    
+}
+.start-growing-sotto p{
+    margin:30px 0;
 }
 
 
