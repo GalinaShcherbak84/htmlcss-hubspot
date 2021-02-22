@@ -374,4 +374,69 @@ hr{
     background-image: url(./hubspot-assets/img-hubspot/growthhub-white-small.svg);
 }
 
+/* Section "start_growing" */
+.start-growing{
+    background-color: #ffffff;
+    color:#33475b;
+}
+.testo-left{
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+.testo-left h2{
+    font-size: 54px;
+    color:#33475b;
+    margin-bottom: 20px;
+}
+.testo-left li{
+    list-style: none;
+    color:#32495b;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.testo-left li strong{
+    font-size: 20px;
+}
+.loghi-right{
+    width: 60%;
+    margin:0 5%;
+    margin-top: 40px;
+}
+.cella-logo{
+    width: 25%;
+    height: 60px;
+    background-image: url(./hubspot-assets/img-hubspot/Atlassian-horizontal-blue.webp);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cella-logo:nth-child(2){
+    background-image: url(./hubspot-assets/img-hubspot/doordash_owler.webp);
+}
+.cella-logo:nth-child(3){
+    background-image: url(./hubspot-assets/img-hubspot/g2crowd.webp);
+}
+.cella-logo:nth-child(4){
+    background-image: url(./hubspot-assets/img-hubspot/purple-logo.webp);
+}
+.cella-logo:nth-child(5){
+    background-image: url(./hubspot-assets/img-hubspot/Subaru_Logo.webp);
+}
+.cella-logo:nth-child(6){
+    background-image: url(./hubspot-assets/img-hubspot/Wistia_logo.webp);
+}
+.cella-logo:nth-child(7){
+    background-image: url(./hubspot-assets/img-hubspot/Classpass-logo.webp);
+}
+.cella-logo:nth-child(8){
+    background-image: url(./hubspot-assets/img-hubspot/VMware_logo.webp);
+}
+
+
+
+
+
+
+
 
