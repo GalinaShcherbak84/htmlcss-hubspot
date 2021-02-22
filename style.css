@@ -292,7 +292,7 @@ h4{
  .colonna h4{
      margin:30px 0;
  }
-hr{
+hr:not(footer hr){
     border: 1px solid #33475b;
 
 }
@@ -464,6 +464,76 @@ hr{
 .start-growing-sotto p{
     margin:30px 0;
 }
+/* footer */
+footer{
+    background-color:#32495b ;
+    color:#c9d5e1;
+}
+/* parte in float */
+.parte_in_float .colonna_in_footer{
+    width: 22,75;
+    padding:30px 0;
+    margin-right: 3%;
+}
+.parte_in_float .colonna_in_footer h4{
+    margin: 0 0 30px 0;
+    color:white;
+
+}
+footer li{
+    list-style: none;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+
+.colonna_in_footer:last-child{
+    margin-right:0;
+}
+footer a{
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color:#c9d5e1 ;
+    padding:8px;
+    border:solid 1px #c9d5e1;
+    border-radius: 5px;
+}
+.colonna_in_footer li i{
+    width: 18.5%;
+    text-align: center;
+
+}
+.lingue{
+    width: 70%;
+    text-align: center;
+    margin: 30px auto 0 auto;
+}
+footer .lingue li{
+    display: inline;
+    margin-right: 30px;
+}
+footer hr{
+    margin:20px 0 40px 0;
+}
+footer .container{
+    position: relative;
+    padding-bottom: 60px;
+}
+.legal{
+    position: absolute;
+    bottom:80px;
+    right: 0;
+}
+.legal li{
+    display: inline-block;
+    margin-left: 30px
+}
+
+
+
+
+
 
 
 
