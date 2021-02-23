@@ -65,6 +65,10 @@ a .bottone:hover{
     height: 80px;
     position: relative;
 }
+.top .primo li,
+.bottom li{
+    line-height: 60px;
+}
 
 
 .primo{
@@ -86,6 +90,7 @@ a .bottone:hover{
     border-radius: 5px;
     box-shadow: 0 0 8px #33475b;
     padding: 10px;
+    line-height: normal;
 }
 .menu a{
     display: block;
@@ -105,13 +110,7 @@ a .bottone:hover{
     list-style: none;
     
 }
-.top ul li,
-.bottom ul li{
-    height: 60px;
-    vertical-align: middle;
-    padding-top: 21px;
-}
-    
+
 .top ul li,
 .bottom ul li,
 .up .right ul li{
@@ -131,6 +130,7 @@ a .bottone:hover{
 .bottom ul li i{
     margin:0 5px;
 }
+
 #search{
     border-right: none;
 }
