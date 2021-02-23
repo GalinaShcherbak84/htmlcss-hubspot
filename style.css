@@ -59,6 +59,30 @@ h4{
     position: absolute;
     top:50%;
     transform: translateY(-50%);
+    z-index:4;
+}
+.primo li:hover .menu,
+.primo .menu:hover{
+    display: block;}
+.menu{
+    display: none;
+    position: absolute;
+    top:60px;
+    width: 50%;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #33475b;
+}
+.menu a{
+    display: block;
+    margin:10px 0;
+    text-align: center;
+
+}
+ 
+
+.menu a:hover{
+    color:#fe775a ;
 }
 .secondo{
     position: absolute;
@@ -68,6 +92,12 @@ h4{
 }
 .top ul{
     list-style: none;
+    
+}
+.top ul li{
+    height: 60px;
+    vertical-align: middle;
+    padding-top: 21px;
 }
     
 .top ul li,
@@ -128,6 +158,7 @@ h4{
     position: absolute;
     top:50%;
     transform: translateY(-50%);
+    z-index: 1;
 }
 /* banner con il testo */
 .banner{
