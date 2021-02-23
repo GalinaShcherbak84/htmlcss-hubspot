@@ -593,7 +593,34 @@ footer .container{
     display: inline-block;
     margin-left: 30px
 }
-
+/* chat */
+#chat{
+    text-align: right;
+    font-size: 80px;
+    position: fixed;
+    bottom:2%;
+    right: 4%;
+    z-index: 5;
+}
+#chat a{
+    color:#fe775a;
+}
+#chat input{
+    position: absolute;
+    bottom: 80px;
+    right: 4%;
+    display: none;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0 0 8px #33475b;
+    border-radius: 5px;
+    border: none;
+    
+}
+ #chat:hover input{
+    display: block;
+}
 
 
 
