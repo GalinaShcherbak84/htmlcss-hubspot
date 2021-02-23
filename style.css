@@ -7,10 +7,7 @@
 }
 /* utility */
 
-a{
-    text-decoration: none;
-    color:#32495b;
-}
+
 p{
     font-size: 18px;
 }
@@ -44,6 +41,19 @@ h4{
 .w-50{
     width: 50%;
 }
+a:hover{
+    color:#fe775a  ;
+}
+a{
+    text-decoration: none;
+    color:#32495b;
+}
+
+a.bottone_attivo:hover,
+a .bottone_attivo:hover,
+a .bottone:hover{
+    color:#32495b;
+}
 /* header */
 
 /* header  la parte sopra */
@@ -55,6 +65,8 @@ h4{
     height: 80px;
     position: relative;
 }
+
+
 .primo{
     position: absolute;
     top:50%;
@@ -62,16 +74,18 @@ h4{
     z-index:4;
 }
 .primo li:hover .menu,
-.primo .menu:hover{
+.bottom li:hover .menu{
     display: block;}
+
 .menu{
     display: none;
     position: absolute;
-    top:60px;
-    width: 50%;
+    top:50px;
+    /* width: 50%; */
     background-color:white;
     border-radius: 5px;
     box-shadow: 0 0 8px #33475b;
+    padding: 10px;
 }
 .menu a{
     display: block;
@@ -79,11 +93,8 @@ h4{
     text-align: center;
 
 }
- 
 
-.menu a:hover{
-    color:#fe775a ;
-}
+ 
 .secondo{
     position: absolute;
     top:50%;
@@ -94,7 +105,8 @@ h4{
     list-style: none;
     
 }
-.top ul li{
+.top ul li,
+.bottom ul li{
     height: 60px;
     vertical-align: middle;
     padding-top: 21px;
@@ -142,14 +154,26 @@ h4{
 
 /* header la parte sotto */
 .bottom{
+    position: relative;
     width: 100%;
     height: 80px;
     background-color:#ffffff;
     border-top: 1px solid black;
+    z-index: 3;
+
+}
+.bottom .container li{
+    position: relative;
+    
 }
 .bottom .container{
     height: 80px;
     position: relative;
+}
+.bottom .container li .menu{
+    position: absolute;
+    top:50px;
+    /* width: 100%; */
 }
 .bottom li{
     margin-left: 20px;
@@ -535,8 +559,8 @@ footer a#special{
     border:solid 1px #c9d5e1;
     border-radius: 5px;
 }
-footer li a:hover,
-footer li a#special:hover{
+footer a:hover,
+footer a#special:hover{
     color:white;
 }
 .colonna_in_footer li i{
