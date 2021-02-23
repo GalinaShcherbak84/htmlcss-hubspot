@@ -491,6 +491,11 @@ footer li{
     margin-right:0;
 }
 footer a{
+    color:#c9d5e1
+}
+
+footer a#special{
+    color:#32495b ;
     width: 100%;
     text-align: center;
     display: block;
@@ -498,6 +503,10 @@ footer a{
     padding:8px;
     border:solid 1px #c9d5e1;
     border-radius: 5px;
+}
+footer li a:hover,
+footer li a#special:hover{
+    color:white;
 }
 .colonna_in_footer li i{
     width: 18.5%;
