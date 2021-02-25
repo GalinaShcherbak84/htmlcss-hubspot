@@ -116,7 +116,7 @@ a .bottone:hover{
 .up .right ul li{
     display: inline-block;
     color:#32495b;
-    font-weight: bolder;
+
     
 }
 .top ul li:first-child{
@@ -526,7 +526,7 @@ footer{
 }
 /* parte in float */
 .parte_in_float .colonna_in_footer{
-    width: 22,75;
+    width: 22.75;
     padding:30px 0;
     margin-right: 3%;
 }
